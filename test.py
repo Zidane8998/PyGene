@@ -16,7 +16,7 @@ y = random.randrange(0, height)
 
 loc = [x, y]
 
-ball = pygame.image.load("../assets/ball.gif")
+ball = pygame.image.load("assets/ball.gif")
 ballrect = ball.get_rect()
 ballrect = ballrect.move(loc)
 world.append(ballrect)
